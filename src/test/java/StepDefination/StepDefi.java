@@ -33,6 +33,7 @@ public class StepDefi {
     @And("^Payement cards displayed \"([^\"]*)\"$")
     public void payement_cards_displayed_something(String Arg1) throws Throwable {
         System.out.println(Arg1);
+        System.out.println(Arg1);
     }
 
     }
