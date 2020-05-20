@@ -22,16 +22,21 @@ public class StepDefi {
     @When("^User login to the appliaction using useridt (.+) and password (.+)$")
     public void user_login_to_the_appliaction_using_useridt_and_password(String username, String password) throws Throwable {
         System.out.println(username);
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%");
         System.out.println(password);
     }
 
     @Then("^Home page is displayed$")
     public void home_page_is_displayed() throws Throwable {
      System.out.println("Home page is displayed");
+     System.out.println("*&&&&&&&&&&&&&&&&&&&&&&&*");
+     System.out.println("Home page is displayed");
     }
 
     @And("^Payement cards displayed \"([^\"]*)\"$")
     public void payement_cards_displayed_something(String Arg1) throws Throwable {
+        System.out.println(Arg1);
+        System.out.println(Arg1);
         System.out.println(Arg1);
     }
 
