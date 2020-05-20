@@ -15,6 +15,7 @@ public class StepDefi {
     @Given("^User landed to NetBanking Application$")
     public void user_landed_to_netbanking_application() throws Throwable {
      System.out.println("User landed to NetBanking Application");  
+     System.out.println("User landed to NetBanking Application");  
     }
 
     @When("^User login to the appliaction using useridt (.+) and password (.+)$")
